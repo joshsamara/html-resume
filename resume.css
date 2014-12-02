@@ -5,7 +5,7 @@ body {
 .page {
   width: 8.5in;
   height: 11in;
-  border: 1px solid lightgrey;
+  border: 1px solid lightgrey; /* Remove this later */
   margin: 0.5in;
 }
 
@@ -26,15 +26,31 @@ body {
 
 /* section stuff */
 .section {
+  margin-top: 20px;
+  padding-top: 5px;
   border-top: 1px solid lightgrey;
   clear: both;
 }
 
 .section .label {
-  width: 200px;
+  width: 180px;
   float: left;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .section .content {
-  margin-left: 300px;
+  margin-left: 180px;
+}
+
+/* Useful Styles */
+.dark {
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+/* Interests */
+.interests .content {
+  text-align: center;
+  font-style: italic;
 }
