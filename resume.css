@@ -5,7 +5,7 @@ body {
 .page {
   width: 8.5in;
   height: 11in;
-  border: 1px solid black;
+  border: 1px solid lightgrey;
   margin: 0.5in;
 }
 
@@ -22,4 +22,19 @@ body {
 
 .contact {
   float: right;
+}
+
+/* section stuff */
+.section {
+  border-top: 1px solid lightgrey;
+  clear: both;
+}
+
+.section .label {
+  width: 200px;
+  float: left;
+}
+
+.section .content {
+  margin-left: 300px;
 }
