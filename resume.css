@@ -1,3 +1,25 @@
-.test {
-  color: red;
+body {
+  font-family: Georgia;
+}
+
+.page {
+  width: 8.5in;
+  height: 11in;
+  border: 1px solid black;
+  margin: 0.5in;
+}
+
+/* header stuff */
+.header a {
+  display: block;
+}
+
+.name {
+  font-size: 100px;
+  display: inline;
+  line-height: 0.8
+}
+
+.contact {
+  float: right;
 }
