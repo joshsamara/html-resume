@@ -2,10 +2,11 @@ body {
   font-family: Georgia;
 }
 
-p {
+p, ul {
   display: block;
   margin: 2px 0;
 }
+
 
 .page {
   width: 8.5in;
@@ -47,7 +48,7 @@ p {
 .section .content {
   margin-left: 170px;
   font-size: 13px;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .content div {
@@ -57,6 +58,10 @@ p {
 
 .content div:last-child {
   margin-bottom: 0px;
+}
+
+.jobs p{
+  margin: 0;
 }
 
 /* Useful Styles */
