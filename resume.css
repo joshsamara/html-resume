@@ -11,7 +11,7 @@ p, ul {
 .page {
   width: 8.5in;
   height: 11in;
-  border: 1px solid whitesmoke; /* Remove this later */
+  border: 1px solid white; /* Remove this later */
   margin: 0.5in;
 }
 
