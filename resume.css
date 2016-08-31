@@ -67,12 +67,13 @@ div {
 }
 
 .section .label {
-  width: 20%;
+  /* Page size doesn't divide into %s evenly :( */
+  width: 19%;
   font-size: 2em;
 }
 
 .section .content {
-  width: 70%;
+  width: 80%;
 }
 
 /* Etc Components */
