@@ -4,12 +4,11 @@ body {
   font-size: 14px;
 }
 
-p {
+p, ul {
   margin: 0;
 }
 
 ul {
-  margin-top: 0;
   list-style: none;
   -webkit-padding-start: 2em;
 }
@@ -25,16 +24,15 @@ div {
 
 /* Page styles */
 .page {
-  padding: 3em;
+  padding: 1em;
+  width: 8.5in;
+  height: 11in;
+  margin: 0.5in;
 }
 
 @media print {
-  /* Printable things should be paper-sized */
   .page {
     padding: 0;
-    width: 8.5in;
-    height: 11in;
-    margin: 0.5in;
   }
 }
 
@@ -67,22 +65,31 @@ div {
 }
 
 .section .label {
-  /* Page size doesn't divide into %s evenly :( */
-  width: 19%;
+  width: 29%;
   font-size: 2em;
 }
 
 .section .content {
-  width: 80%;
+  /* Page size doesn't divide into %s evenly :( */
+  width: 70%;
+}
+
+.subsection {
+  padding-bottom: .5em;
+}
+
+.section .subsection:last-child {
+  padding-bottom: 0;
 }
 
 /* Etc Components */
-.subsection {
-  padding: .5em 0;
-}
 
 .title {
   font-size: 1.4em;
+}
+
+.subtitle {
+  text-decoration: underline;
 }
 
 /* Interests */
