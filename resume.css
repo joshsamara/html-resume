@@ -37,18 +37,12 @@ div {
 }
 
 /* Header */
-.header {
-  height: 8%;
-  position: relative;
-}
-
 .header .name {
-  font-size: 5em;
+  font-size: 7em;
+  width: 79%;
 }
 
 .header .contact {
-  position: absolute;
-  right: 0;
   width: 20%;
 }
 
@@ -59,7 +53,7 @@ div {
 }
 
 .page .section:not(:first-child) {
-  padding: 0.5em 0;
+  padding: 1em 0;
   border-top: 1px solid black;
   clear: both;
 }
