@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'Inconsolata', serif;
+  font-size: 14px;
 }
 
 p {
@@ -10,6 +11,7 @@ p {
 ul {
   margin-top: 0;
   list-style: none;
+  -webkit-padding-start: 2em;
 }
 
 li:before {
@@ -21,12 +23,13 @@ div {
   display: inline-block;
 }
 
+/* Page styles */
 .page {
   padding: 3em;
 }
 
-/* Printable things should be paper-sized */
 @media print {
+  /* Printable things should be paper-sized */
   .page {
     padding: 0;
     width: 8.5in;
@@ -58,8 +61,7 @@ div {
 }
 
 .page .section:not(:first-child) {
-  margin-top: 20px;
-  padding-top: 5px;
+  padding: 1em 0;
   border-top: 1px solid black;
   clear: both;
 }
@@ -73,13 +75,13 @@ div {
   width: 70%;
 }
 
-.content div:not(:last-child){
-  margin-bottom: 5px;
+/* Etc Components */
+.subsection {
+  padding: .5em 0;
 }
 
-/* Etc Components */
 .title {
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 /* Interests */
