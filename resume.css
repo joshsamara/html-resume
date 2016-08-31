@@ -1,10 +1,20 @@
+/* Global Styles */
 body {
   font-family: 'Inconsolata', serif;
 }
 
-p, ul {
-  display: block;
-  margin: 2px 0;
+p {
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  list-style: none;
+}
+
+li:before {
+  content: "\002D";
+  margin: 0 1em 0 0;
 }
 
 div {
@@ -13,9 +23,6 @@ div {
 
 .page {
   padding: 3em;
-  /* width: 8.5in; */
-  /* height: 11in; */
-  /* margin: 0.5in; */
 }
 
 /* Printable things should be paper-sized */
@@ -26,11 +33,6 @@ div {
     height: 11in;
     margin: 0.5in;
   }
-}
-
-/* Keep section divs block elements. */
-.section {
-  display: block;
 }
 
 /* Header */
@@ -50,10 +52,15 @@ div {
 }
 
 /* Sectioning */
+/* Keep section divs block elements. */
+.section {
+  display: block;
+}
+
 .page .section:not(:first-child) {
   margin-top: 20px;
   padding-top: 5px;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid black;
   clear: both;
 }
 
@@ -66,17 +73,13 @@ div {
   width: 70%;
 }
 
-.content div {
+.content div:not(:last-child){
   margin-bottom: 5px;
-  font-weight: lighter;
 }
 
-.content div:last-child {
-  margin-bottom: 0px;
-}
-
-.jobs p {
-  margin: 0;
+/* Etc Components */
+.title {
+  font-size: 1.5em;
 }
 
 /* Interests */
