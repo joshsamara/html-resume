@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia;
+  font-family: 'Inconsolata', serif;
 }
 
 p, ul {
@@ -7,31 +7,50 @@ p, ul {
   margin: 2px 0;
 }
 
-
-.page {
-  width: 8.5in;
-  height: 11in;
-  border: 1px solid white; /* Remove this later */
-  margin: 0.5in;
+div {
+  display: inline-block;
 }
 
-/* header stuff */
-.header a {
+.page {
+  padding: 3em;
+  /* width: 8.5in; */
+  /* height: 11in; */
+  /* margin: 0.5in; */
+}
+
+/* Printable things should be paper-sized */
+@media print {
+  .page {
+    padding: 0;
+    width: 8.5in;
+    height: 11in;
+    margin: 0.5in;
+  }
+}
+
+/* Keep section divs block elements. */
+.section {
   display: block;
 }
 
-.name {
-  font-size: 100px;
-  display: inline;
-  line-height: 0.8
+/* Header */
+.header {
+  height: 8%;
+  position: relative;
 }
 
-.contact {
-  float: right;
+.header .name {
+  font-size: 5em;
 }
 
-/* section stuff */
-.section {
+.header .contact {
+  position: absolute;
+  right: 0;
+  width: 20%;
+}
+
+/* Sectioning */
+.page .section:not(:first-child) {
   margin-top: 20px;
   padding-top: 5px;
   border-top: 1px solid lightgrey;
@@ -39,16 +58,12 @@ p, ul {
 }
 
 .section .label {
-  width: 170px;
-  float: left;
-  font-size: 30px;
-  font-style: italic;
+  width: 20%;
+  font-size: 2em;
 }
 
 .section .content {
-  margin-left: 170px;
-  font-size: 13px;
-  line-height: 1.2;
+  width: 70%;
 }
 
 .content div {
@@ -60,36 +75,8 @@ p, ul {
   margin-bottom: 0px;
 }
 
-.jobs p{
+.jobs p {
   margin: 0;
-}
-
-/* Useful Styles */
-.dark {
-  font-weight: bold;
-  margin-right: 3px;
-
-}
-.med {
-  font-size: 16px;
-}
-
-.caption {
-  font-size: 9px;
-  font-style: italic;
-}
-
-.mini-title {
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 300;
-  margin-right: 5px;
-}
-
-.disclaimer {
-  text-align: center;
-  font-style: italic;
-  font-size: 10px;
 }
 
 /* Interests */
