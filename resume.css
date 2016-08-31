@@ -92,6 +92,10 @@ div {
   text-decoration: underline;
 }
 
+.note {
+  font-style: italic;
+}
+
 /* Interests */
 .interests .content {
   text-align: center;
