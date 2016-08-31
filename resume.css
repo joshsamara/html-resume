@@ -5,7 +5,7 @@ body {
 }
 
 p, ul {
-  margin: 0;
+  margin: .1em 0;
 }
 
 ul {
@@ -59,7 +59,7 @@ div {
 }
 
 .page .section:not(:first-child) {
-  padding: 1em 0;
+  padding: 0.5em 0;
   border-top: 1px solid black;
   clear: both;
 }
