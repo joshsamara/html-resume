@@ -1,5 +1,7 @@
-This is my resume made in HTMl.
+This is my resume made entirely with HTML and CSS.
 
-You can download and open it. Print it without the headers, etc.
+You can check it out: [here](https://s3.amazonaws.com/joshsamara-public/resume/resume.html).
 
-I'll host it somewhere and keep it up to date with this repo once its done.
+You can print it out nicely in most modern web browsers by opening the print
+dialog and hiding any headers/footers. In some browsers (like Chrome) you'll
+ also want to reduce default padding.
