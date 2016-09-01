@@ -10,4 +10,4 @@ deploy:
   upload-dir: resume
   region: us-east-1
   on:
-    branch: add-travis
+    branch: master
