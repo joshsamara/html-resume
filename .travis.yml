@@ -6,6 +6,7 @@ deploy:
     secure: Dkm+A/qlrxX8T9vpdPW0jt7aeyp9t62IdfsvA3z2mYCUYeFUH/CRNOSkWR86xfPdgN8bZtbwW3QJPUYbdA9FpWDj4U+y8AudfIZzwH78rSH1ktQCCiJXFfs4+CFoo7wCcM61Fl84JGJGUlk4DshPzpB0NNNzoaMDkiA8gtuLx9s=
   bucket: joshsamara-public
   skip_cleanup: true
+  local-dir: src
   upload-dir: resume
   region: us-east-1
   on:
