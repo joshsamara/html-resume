@@ -8,3 +8,5 @@ deploy:
   skip_cleanup: true
   upload-dir: resume
   region: US Standard
+  on:
+    branch: add-travis
