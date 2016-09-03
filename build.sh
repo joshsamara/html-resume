@@ -21,9 +21,9 @@ fi
 mkdir -p "$DEST_DIR"
 
 # Default any values
-PHONE="${PHONE:-$REDACTED}"
-STREET1="${STREET1:-$REDACTED}"
-STREET2="${STREET2:-$REDACTED}"
+PHONE="${PHONE:-$DEFAULT_VAL}"
+STREET1="${STREET1:-$DEFAULT_VAL}"
+STREET2="${STREET2:-$DEFAULT_VAL}"
 
 # Run any replacements
 cat "$SOURCE_DIR/$HTML_FILE" |
