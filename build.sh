@@ -10,7 +10,7 @@ SOURCE_DIR="src"
 DEST_DIR="build"
 HTML_FILE="resume.html"
 CSS_FILE="resume.css"
-DEFAULT_VAL="<span style='background-color: black'>THIS VALUE IS REDACTED<\/span>"
+DEFAULT_VAL="<span style='background-color: black'>VALUE REDACTED<\/span>"
 
 # Use a '.details' file for values
 if [ -f '.details' ]; then
