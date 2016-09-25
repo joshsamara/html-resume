@@ -59,13 +59,16 @@ div {
 }
 
 .section .label {
-  width: 29%;
+  width: 27%;
   font-size: 2em;
+  vertical-align: top;
 }
 
 .section .content {
   /* Page size doesn't divide into %s evenly :( */
   width: 70%;
+  padding-left: 2%;
+  border-left: 1px solid #aaa;
 }
 
 .subsection {
@@ -79,6 +82,7 @@ div {
 /* Etc Components */
 
 .title {
+  margin: .2em 0;
   font-size: 1.4em;
 }
 
