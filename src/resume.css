@@ -13,6 +13,10 @@ ul {
   -webkit-padding-start: 2em;
 }
 
+li {
+  margin: 0.2em 0;
+}
+
 li:before {
   content: "\002D";
   margin: 0 1em 0 0;
@@ -59,14 +63,14 @@ div {
 }
 
 .section .label {
-  width: 27%;
-  font-size: 2em;
+  width: 24%;
+  font-size: 1.75em;
   vertical-align: top;
 }
 
 .section .content {
   /* Page size doesn't divide into %s evenly :( */
-  width: 70%;
+  width: 73%;
   padding-left: 2%;
   border-left: 1px solid #aaa;
 }
