@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'Inconsolata', serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 p, ul {
@@ -70,7 +70,7 @@ div {
 
 .section .content {
   /* Page size doesn't divide into %s evenly :( */
-  width: 73%;
+  width: 72%;
   padding-left: 2%;
   border-left: 1px solid #aaa;
 }
