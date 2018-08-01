@@ -5,7 +5,7 @@ body {
 }
 
 p, ul {
-  margin: .3em 0;
+  margin: .5em 0;
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
 }
 
 li {
-  margin: 0.2em 0;
+  margin: 0.5em 0;
 }
 
 li:before {
@@ -90,6 +90,12 @@ div {
   font-size: 1.4em;
 }
 
+.title2{
+  margin: .2em 0;
+  font-size: 1.2em;
+}
+
+/* TODO: Rename this frome subtitle and get rid of title2 */
 .subtitle {
   text-decoration: underline;
 }
